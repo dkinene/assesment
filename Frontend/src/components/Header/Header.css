@@ -1,0 +1,77 @@
+.header {
+    position: absolute;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+}
+.navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 234px;
+    height: 56px;
+    left: 101px;
+    bottom: 0px;
+}
+.item-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    width: 234px;
+    height: 56px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-left: 101px;
+}
+.nav-item {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 0px;
+    width: 97px;
+    height: 56px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.header a {
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.header a:hover {
+    color: #5ece7b;
+}
+.header a:active {
+  color: #5ece7b;
+}
+
+.actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    gap: 22px;
+    position: absolute;
+    width: 204px;
+    height: 40px;
+    right: 0;
+    top: 23px;
+    margin-right: 101px;
+}
+.baloon {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    top: -2px;
+    right: -8px;
+    border-radius: 100%;
+    text-align: center;
+    color: white;
+}
